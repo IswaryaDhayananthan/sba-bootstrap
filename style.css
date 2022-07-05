@@ -1,0 +1,31 @@
+ th, td{
+    border: 1px solid black;
+    border-collapse: separate;
+}
+.box{
+    display: grid;
+    background-color: aqua;
+    column-gap: 50px;
+    row-gap: 25px;
+    padding: 10px;
+    grid-template-areas: "a b c c"
+                         "a b d d"
+
+}
+.a{
+    background-color: red;
+    grid-area: a;
+}
+.b{
+    background-color: yellow;
+    grid-area: b;
+}
+
+.c{
+    background-color: green;
+    grid-area: c;
+}
+.d{
+    background-color: red;
+    grid-area: d;
+}
